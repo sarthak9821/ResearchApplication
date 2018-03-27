@@ -9,16 +9,16 @@ class MainActivity : AppCompatActivity() {
 
     private val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
         when (item.itemId) {
-            R.id.navigation_research -> {
-                message.setText(R.string.title_home)
+            R.id.research -> {
+                message.setText("Research")
                 return@OnNavigationItemSelectedListener true
             }
-            R.id.navigation_step -> {
-                message.setText(R.string.title_stepGuide)
+            R.id.step -> {
+                message.setText("Step Guides")
                 return@OnNavigationItemSelectedListener true
             }
-            R.id.navigation_notifications -> {
-                message.setText(R.string.title_applicaion)
+            R.id.application -> {
+                message.setText("Applications and Request")
                 return@OnNavigationItemSelectedListener true
             }
         }
