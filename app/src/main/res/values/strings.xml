@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ResearchApplication</string>
+    <string name="title_research">Home</string>
+    <string name="title_stepGuide">Dashboard</string>
+    <string name="title_applicaion">Notifications</string>
+</resources>
